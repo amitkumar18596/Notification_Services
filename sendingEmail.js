@@ -29,6 +29,6 @@ transporter.sendMail(mailDataObj, (err, data) =>{
     if (err){
         console.log(err.message);
     }else {
-        console.log('Email sent successfully');
+        console.log('Email sent successfully', data);
     }
 })
